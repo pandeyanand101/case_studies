@@ -10,7 +10,7 @@ Created on Thu Jan 20 19:52:46 2022
 import pandas as pd
 import numpy as np
 from flask import Flask, request
-
+print("new changes")
 #read all the trained SVD components
 svd_U = np.genfromtxt('./data/svd_U.csv', delimiter=",")
 svd_sigma = np.genfromtxt('./data/svd_sigma.csv', delimiter=",")
